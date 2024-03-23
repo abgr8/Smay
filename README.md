@@ -5,6 +5,6 @@
 <hr>
 <ol>
 <li>Open the url:{insert url here} </li>
-<li>Swipe right on the smokin' hotties!</li>
-<li>New faces, new choices</li>
+<li>click on the smokin' hotties!</li>
+<li>New faces, new choices (the hottie you clicked does not change until you choose another one)</li>
 </ol>
