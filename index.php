@@ -1,3 +1,17 @@
+<?php
+$imgL = "1";
+$imgR = "1";
+$selectedimg = null;
+function selectimgs($selectedimg) {
+    $GLOBALS['imgL'] = $selectedimg;
+    do {
+        $GLOBALS['imgR'] = random_int(1, 17);
+    } while ($GLOBALS['imgL'] === $GLOBALS['imgR']);
+}
+if (is_null($selectedimg)){
+selectimgs(random_int(1,17));}
+
+?>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -11,10 +25,9 @@
 </header>
 <main>
   <div class="image-container">
-    <button>  <img src="https://via.placeholder.com/640x480.png/a59090/000000?Text=640x480" alt="Image 1" class="image-choice"> </button>
-    <button>  <img src="https://via.placeholder.com/640x480.png/a59090/000000?Text=640x480" alt="Image 2" class="image-choice"> </button>
+    <button>  <img src="<?php echo"/ppl/".$imgL.".jpeg";?>" alt="Image 1" class="image-choice"> </button>
+    <button>  <img src="<?php echo"/ppl/".$imgR.".jpeg" ?>" alt="Image 2" class="image-choice"> </button>
   </div>
-<i>an abbasthegreat production</i>
 </main>
 </body>
 </html>
