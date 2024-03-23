@@ -8,7 +8,6 @@
 <body class="dark-theme">
 <header>
   <h1>$may</h1>
-  <h2>Abbas... you a nigga</h2>
 </header>
 <main>
   <div class="image-container">
